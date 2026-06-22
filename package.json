@@ -1,0 +1,20 @@
+{
+  "name": "Curso de tailwind css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:styles" : "pnpx @tailwindcss/cli -i ./input.css -o ./assets/output.css --match"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.8.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module"
+}

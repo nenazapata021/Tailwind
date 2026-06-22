@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="en" class="bg-slate-950 m-0 p-0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edna.links - Enlaces de Edna y cursos</title>
+    <link rel="stylesheet" href="./assets/output.css">
+</head>
+
+<body class="min-h-screen bg-gradient-to-b from-black via-sky-950 to-gray-800 text-white flex flex-col items-center">
+
+<header class="w-full flex flex-col items-center pt-12 pb-6">
+    <!-- Contenedor de la foto -->
+    <div class="relative mb-6">
+        <img
+            src="./assets/Foto.png"
+            alt="Edna Sonriendo"
+            class="h-[40vh] object-cover mask-radial-at-center mask-radial-from-45% mask-radial-to-80%"
+        >
+        <div class="absolute inset-0 bg-gradient-to-to from-black/0 to-transparent"></div>
+    </div>
+
+    <!-- Información del Perfil -->
+    <div class="flex flex-col justify-center items-center text-center mb-8">
+        <span class="
+            text-sky-400 text-xl
+            font-mono px-3 py-1
+            border border-sky-500/50 rounded-full flex items-center justify-center shadow-xs
+            bg-black/65 cursor-crosshair z-10
+        ">
+            @midudev
+
+            <svg class="ml-1 w-5 h-5 text-sky-400 inline" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+            </svg>
+        </span>
+
+        <h1 class="text-3xl font-extrabold leading-tight mt-1 flex items-center justify-center gap-1">
+            Edna Castañeda Zapata
+        </h1>
+    </div>
+
+    <!-- Sección de Redes Sociales -->
+    <section class="flex gap-4 justify-center flex-wrap">
+        <a class="bg-purple-400 p-2 size-12 xs:size-16 flex items-center justify-center rounded-full hover:bg-purple-500 transition-transform hover:scale-110" href="https://github.com/" target="_blank" aria-label="github" title="Ir a Github">
+            <svg width="36" height="36">
+                <use href="./assets/sprite.svg#github"></use>
+            </svg>
+        </a>
+
+        <a class="bg-sky-200 p-2 size-12 xs:size-16 flex items-center justify-center rounded-full hover:bg-purple-500 transition-transform hover:scale-110" href="https://linkedin.com/" target="_blank" aria-label="linkedin" title="Ir a LinkedIn">
+            <svg width="36" height="36">
+                <use href="./assets/sprite.svg#linkedin"></use>
+            </svg>
+        </a>
+
+        <a
+            class="p-2 size-12 xs:size-16 flex items-center justify-center rounded-full transition-transform hover:scale-110"
+            style="background: radial-gradient(circle at 30% 107%, #fff36d 0%, #fff36d 5%, #f06e63 45%, #df2ea7 60%, #446be2 90%)"
+            href="https://instagram.com/"
+            target="_blank"
+            aria-label="instagram"
+            title="Ir a Instagram"
+        >
+            <svg width="28" height="28">
+                <use href="./assets/sprite.svg#instagram"></use>
+            </svg>
+        </a>
+
+        <a class="bg-black border border-gray-700 p-2 size-12 xs:size-16 flex items-center justify-center rounded-full hover:bg-gray-900 hover:border-gray-500 transition-transform hover:scale-110" href="https://x.com/" target="_blank" aria-label="x" title="Ir a X">
+            <svg width="26" height="26">
+                <use href="./assets/sprite.svg#x"></use>
+            </svg>
+        </a>
+
+        <a
+            class="p-2 size-12 xs:size-16 flex items-center justify-center 
+            rounded-full transition-transform hover:scale-110 hover:opacity-80"
+            style="background-color: #fcf1f1"
+            href="https://youtube.com/"
+            target="_blank"
+            aria-label="youtube"
+            title="Ir a YouTube"
+        >
+            <svg width="28" height="28">
+                <use href="./assets/sprite.svg#youtube"></use>
+            </svg>
+        </a>
+    </section>
+
+    <p class="text-slate-300 mt-4 text-xs px-4 text-center">
+        Divulgador de programación, estudiante. Aprendiendo JavaScript, 
+        React, Node.js de forma divertida.
+    </p>
+</header>
+
+<!-- Cursos -->
+<main class="w-full max-w-md px-4 pt-4 pb-10">
+    <div class="grid grid-cols-3 gap-3">
+
+        <!-- Tarjeta React: ocupa una columna -->
+        <a
+            href="https://cursoreact.dev"
+            target="_blank"
+            class="col-span-2 flex flex-col justify-between w-full overflow-hidden 
+            rounded-3xl border border-cyan-300/50 shadow-lg 
+            transition-transform hover:scale-105
+            bg-gradient-to-br from-cyan-950 via-cyan-800 to-cyan-500 p-5
+            min-h-[160px]"
+        >
+            <!-- Texto superior izquierda -->
+            <span class="self-start text-xs font-semibold text-cyan-100 
+                bg-black/30 border border-cyan-300/30 
+                rounded-full px-3 py-1 backdrop-blur-sm">
+                Curso de +14 clases
+            </span>
+
+            <!-- Logo centrado a la izquierda -->
+            <img
+                src="./assets/react2.png"
+                alt="Logo de React"
+                class="h-16 w-16 object-contain opacity-90 self-start"
+            >
+
+            <!-- Nombre abajo izquierda -->
+            <span class="text-xl font-bold text-white drop-shadow-md self-start group-hover:-traslate-y-1 transition-transform">
+                React.js
+            </span>
+        </a>
+        <a
+            href="https://developer.mozilla.org/es/docs/Web/HTML"
+            target="_blank"
+            class="col-span-1 flex flex-col justify-between w-full overflow-hidden 
+            rounded-3xl border border-orange-400/50 shadow-lg 
+            transition-transform hover:scale-105
+            bg-gradient-to-br from-orange-950 via-orange-800 to-orange-500 p-5
+            min-h-[160px]"
+        >
+            <!-- Texto superior izquierda -->
+            <span class="self-start text-xs font-semibold text-orange-100 
+                bg-black/30 border border-orange-300/30 
+                rounded-full px-3 py-1 backdrop-blur-sm">
+                Para principiantes
+            </span>
+
+            <!-- Logo centrado a la izquierda -->
+            <img
+                src="./assets/html.png"
+                alt="Logo de HTML5"
+                class="h-16 w-16 object-contain opacity-90 self-start"
+            >
+
+            <!-- Nombre abajo izquierda -->
+            <span class="text-xl font-bold text-white drop-shadow-md self-start transition-transform">
+                HTML5
+            </span>
+        <!-- Tarjeta CSS3 -->
+        <a
+            href="https://developer.mozilla.org/es/docs/Web/CSS"
+            target="_blank"
+            class="col-span-1 flex flex-col justify-between w-full overflow-hidden 
+            rounded-3xl border border-purple-400/50 shadow-lg 
+            transition-transform hover:scale-105
+            bg-gradient-to-br from-purple-950 via-purple-700 to-violet-400 p-5
+            min-h-[160px]"
+        >
+            <!-- Texto superior izquierda -->
+            <span class="self-start text-xs font-semibold text-purple-100 
+                bg-black/30 border border-purple-300/30 
+                rounded-full px-3 py-1 backdrop-blur-sm">
+                Para principiantes
+            </span>
+
+            <!-- Logo centrado a la izquierda -->
+            <img
+                src="./assets/css.png"
+                alt="Logo de CSS3"
+                class="h-16 w-16 object-contain opacity-90 self-start"
+            >
+
+            <!-- Nombre abajo izquierda -->
+            <span class="text-xl font-bold text-white drop-shadow-md self-start transition-transform">
+                CSS3
+            </span>
+        </a>
+        <!-- Tarjeta Node.js -->
+        <a
+            href="https://nodejs.org"
+            target="_blank"
+            class="col-span-2 flex flex-col justify-between w-full overflow-hidden 
+            rounded-3xl border border-green-400/50 shadow-lg 
+            transition-transform hover:scale-105
+            bg-gradient-to-br from-green-950 via-green-800 to-green-500 p-5
+            min-h-[160px]"
+        >
+            <!-- Texto superior izquierda -->
+            <span class="self-start text-xs font-semibold text-green-100 
+                bg-black/30 border border-green-300/30 
+                rounded-full px-3 py-1 backdrop-blur-sm">
+                Curso de +14 clases
+            </span>
+
+            <!-- Logo centrado a la izquierda -->
+            <img
+                src="./assets/node.js_logo.png"
+                alt="Logo de Node.js"
+                class="h-16 w-16 object-contain opacity-90 self-start"
+            >
+
+            <!-- Nombre abajo izquierda -->
+            <span class="text-xl font-bold text-white drop-shadow-md self-start group-hover:-translate-y-1 transition-transform">
+                Node.js
+            </span>
+        </a>
+    </div>
+</main>
+
+</body>
+</html>
